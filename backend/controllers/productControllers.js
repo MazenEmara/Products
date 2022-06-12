@@ -21,6 +21,8 @@ module.exports.post_product = async (req,res) => {
         Price: req.body.Price,
         weight: req.body.weight,
         description: req.body.description,
+        image:req.body.image,
+        category:req.body.category,
         quantity: req.body.quantity
     });
     try {
